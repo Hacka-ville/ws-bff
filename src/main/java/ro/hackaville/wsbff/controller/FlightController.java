@@ -11,6 +11,7 @@ import java.util.List;
 @RequiredArgsConstructor
 @RequestMapping("/api/bff/flights")
 @RestController
+@CrossOrigin(value = "http://localhost:3000")
 public class FlightController {
 
     private final FlightService flightService;
